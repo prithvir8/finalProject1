@@ -1,0 +1,32 @@
+<div class="portfolio-container">
+    <div class="sidebar">
+      <div class="filter-option" (mouseover)="setFilter('byService')">Services</div>
+      <div class="filter-option" (mouseover)="setFilter('bySolution')">Solutions</div>
+      <div class="filter-option" (mouseover)="setFilter('byTechnology')">Technologies</div>
+      <div class="filter-option" (mouseover)="setFilter('byIndustry')">Industries</div>
+      <div class="filter-option" (mouseover)="setFilter('byRegion')">Regions</div>
+    </div>
+    <div class="content">
+      <div *ngIf="selectedFilter === 'byService'">
+        <h4>Services</h4>
+        <p>Provide support, maintenance and others</p>
+      </div>
+      <div *ngIf="selectedFilter === 'bySolution'">
+        <h4>Solutions</h4>
+        <p>Solutions at all times</p>
+      </div>
+      <div *ngIf="selectedFilter === 'byTechnology'">
+        <h4>Technologies</h4>
+        <p>Advanced</p>
+      </div>
+      <div *ngIf="selectedFilter === 'byIndustry'">
+        <h4>Industries</h4>
+        <p>Software, hardware, manufacturing</p>
+      </div>
+      <div *ngIf="selectedFilter === 'byRegion'">
+        <h4>Regions</h4>
+        North America, Europe, Asia-Pacific, Middle East, Africa, South America, Central America, Caribbean Islands, Oceania
+      </div>
+    </div>
+  </div>
+  
