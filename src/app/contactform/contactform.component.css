@@ -1,29 +1,39 @@
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  label {
-    margin-top: 10px;
-  }
-  
-  input, textarea {
-    padding: 8px;
-    margin-top: 5px;
-  }
-  
-  button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #4c3f92;
-    color: white;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  button:hover {
-    background-color: #372c6d;
-  }
-  
+.contact-form-container {
+  max-width: 300px;
+  align-items: center;
+  margin: 12px auto;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.contact-form-container div {
+  margin-bottom: 10px;
+}
+
+.contact-form-container label {
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.contact-form-container small {
+  color: red;
+}
+
+.contact-form-container button {
+  padding: 5px 7px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form-container button:disabled {
+  background-color: #cccccc;
+}

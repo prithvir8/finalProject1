@@ -12,6 +12,7 @@ import { SolutionsComponent } from './solutions/solutions.component';
 import { IndustriesComponent } from './industries/industries.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { ServicesComponent } from './services/services.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ServicesComponent } from './services/services.component';
     SolutionsComponent,
     IndustriesComponent,
     TechnologiesComponent,
-    ServicesComponent
+    ServicesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

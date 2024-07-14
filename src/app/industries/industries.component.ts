@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IndustryService } from '../industry.service';
 
 @Component({
   selector: 'app-industries',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class IndustriesComponent {
 
+  industries: any[] = [];
+  constructor(private industryService: IndustryService) {}
+
+  ngOnInit(): void {
+    this.industryService.getIndustries().subscribe(data => {
+      this.industries = data;
+    });
+
+  }
 }

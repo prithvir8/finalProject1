@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  email: string='xyz@contact.com'
+  phone: any='(972)804-9098'
+
 }
