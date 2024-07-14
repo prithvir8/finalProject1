@@ -11,7 +11,6 @@ import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route
-
   { path: 'about', component: AboutComponent },
   { path: 'contactform', component: ContactformComponent },
   { path: 'portfolio', component: PortfolioComponent },
@@ -19,7 +18,6 @@ const routes: Routes = [
   { path: 'solutions', component: SolutionsComponent },
   { path: 'technologies', component: TechnologiesComponent },
   { path: 'services', component: ServicesComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
 
 
 
@@ -29,7 +27,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
-      anchorScrolling: 'enabled', // Enables anchor scrolling
+      anchorScrolling: 'enabled', 
     })
   ],
 
