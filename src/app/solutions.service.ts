@@ -13,7 +13,7 @@ export class SolutionsService {
     {
       id: 1,
       name: 'CRM System',
-      description: 'Customer Relationship Management SystemA Customer Relationship Management (CRM) System helps businesses manage and analyze customer interactions and data throughout the customer lifecycle. The goal is to improve business relationships with customers, assist in customer retention, and drive sales growth. It integrates and automates sales, marketing, and customer support'
+      description: 'Customer Relationship Management  Customer Relationship Management (CRM) System helps businesses manage and analyze customer interactions and data throughout the customer lifecycle. The goal is to improve business relationships with customers, assist in customer retention, and drive sales growth. It integrates and automates sales, marketing, and customer support'
     },
     {
       id: 2,
