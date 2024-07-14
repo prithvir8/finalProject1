@@ -9,7 +9,11 @@
     <div class="content">
       <div *ngIf="selectedFilter === 'byService'">
         <h4>Services</h4>
-        <p>Provide support, maintenance and others</p>
+        <div *ngFor="let services of services">
+          <h3>{{ services.name }}</h3>
+          <p>{{ services.description }}</p>
+        </div>
+        
       </div>
       <div *ngIf="selectedFilter === 'bySolution'">
         <h4>Solutions</h4>

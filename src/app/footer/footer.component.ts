@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit{
 phone: any='(972)804-9098'
 email: string='xyz@contact.com'
+address: string='24500 Coit Rd , ste 900, Plano TX-75803'
   constructor() { }
 
+  
   ngOnInit(): void {
   }
 

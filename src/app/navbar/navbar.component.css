@@ -2,35 +2,32 @@
     background-color: grey;
     padding: 10px;
     text-align: right;
-    font-size: 14px ;
+    font-size: 14px;
   }
   .top-bar a {
     text-decoration: none;
     color: #333;
-    margin-left: 5px;
+    margin-left: 15px;
   }
   .nav-bar {
     background-color: #302b4d;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
-    word-spacing: 5%;
-    margin-right: 10px;
-    
+    padding: 5px 10px;
   }
   .nav-bar .logo {
     height: 40px;
-    align-self: auto;
   }
   .nav-bar ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     display: flex;
   }
   .nav-bar ul li {
-    margin-left: 10px;
+    margin-left: 20px;
+    align-content: flex-start;
   }
   .nav-bar ul li a {
     text-decoration: none;
@@ -38,7 +35,7 @@
     font-size: 16px;
   }
   .contact-button {
-    background-color: dodgerblue;
+    background-color: rgb(20, 36, 52);
     color: white;
     border: 2px solid white;
     padding: 8px 16px;

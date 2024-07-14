@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
+    { path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route
+
   { path: 'about', component: AboutComponent },
   { path: 'contactform', component: ContactformComponent },
   { path: 'portfolio', component: PortfolioComponent },
