@@ -20,12 +20,14 @@
   .social-icons a {
     margin-right: 10px;
     flex: auto;
+    align-content: flex-end ;
   }
   
   .social-icons img {
     width: 24px;
     height: 24px;
     align-content: flex-end;
+    
   }
   
   .footer-section h3 {
