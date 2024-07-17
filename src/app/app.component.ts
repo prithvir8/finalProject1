@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'finalProject1';
-  path = "random-imh.jpg"
+  path :string = '../app/assets/logo.png'
 }
