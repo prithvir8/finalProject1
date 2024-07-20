@@ -22,3 +22,20 @@
     
 
 } */
+
+li{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: auto;
+  align-items: center;
+}
+
+.icons{
+  width: 50%;
+  height: 50%;
+  
+}
+
+
+

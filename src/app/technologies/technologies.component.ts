@@ -9,6 +9,7 @@ import { TechologyService } from '../techology.service';
 export class TechnologiesComponent {
 
   technologies: any[] = [];
+  icon: any[] =[];
   constructor(private techService: TechologyService) {}
 
   ngOnInit(): void {

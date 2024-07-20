@@ -1,9 +1,16 @@
 <div class="industry-list">
-    <h2>Industries</h2>
+    <h2 class="header">Industries</h2>
     <ul>
-      <li *ngFor="let industry of industries">
-        {{ industry.name }}
+      <li *ngFor="let industry of industries" >
+      <h4>   {{ industry.name }}</h4>
+         <img [src]=industry.icons  class="img-icons" >
+        
       </li>
     </ul>
+
+ <!--  <img [src]="url" class="img">
+  <img [src]="url2" class="img">
+  <img [src]="url3" class="img"> -->
+  
   </div>
   

@@ -32,3 +32,8 @@
     margin-top: 0;
   }
   
+  .class-img{
+    width: 600px;
+    height: 300px;
+    align-items: center;
+  }

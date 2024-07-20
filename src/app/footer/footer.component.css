@@ -23,7 +23,7 @@
 
 .footer-section p, .footer-section ul {
   margin: 12;
-  padding: 0;
+  padding: 10px;
   list-style: none;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .social-icons {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .social-icons a {
@@ -53,7 +53,8 @@
 
 @media (max-width: 768px) {
   .footer .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    
   }
 
   .footer-section {

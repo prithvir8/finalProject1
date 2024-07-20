@@ -1,6 +1,12 @@
-<div *ngFor="let home of homepage">
-    <h3 class="header">{{ home.intro }}</h3>
-    <p class="content">{{ home.title }}</p>
+
+  <h3 class="header">{{header}}</h3>
+
+  <img [src]="url" class="banner">
+
+  <div *ngFor="let home of homepage">
+    <h3 class="header">{{home.title}}</h3>
+    <p class="desc-container" id="descContainer">{{ home.description }}</p>
   </div>
+  
   
 

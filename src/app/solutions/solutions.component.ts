@@ -8,6 +8,9 @@ import { SolutionsService } from '../solutions.service';
 })
 export class SolutionsComponent {
   solutions: any[] = [];
+  title: string='Services That We Offer'
+
+  url:any='https://www.priority-software.com/wp-content/uploads/2023/04/crm-vs-erp1-493x463.jpg'
 
   constructor(private solutionsService: SolutionsService) { }
 

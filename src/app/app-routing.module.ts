@@ -7,10 +7,12 @@ import { SolutionsComponent } from './solutions/solutions.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-    { path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route
+  { path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route
+  { path: 'home',component:HomeComponent}, 
   { path: 'about', component: AboutComponent },
   { path: 'contactform', component: ContactformComponent },
   { path: 'portfolio', component: PortfolioComponent },
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'solutions', component: SolutionsComponent },
   { path: 'technologies', component: TechnologiesComponent },
   { path: 'services', component: ServicesComponent },
+
+  
 
 
 
