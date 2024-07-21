@@ -1,13 +1,19 @@
 .top-bar {
-    background-color: grey;
+    background-color: rgb(174, 155, 155);
     padding: 10px;
     text-align: right;
     font-size: 14px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    
   }
   .top-bar a {
     text-decoration: none;
-    color: #333;
+    color: #000;
     margin-left: 15px;
+    
+  
   }
   .nav-bar {
     background-color: #302b4d;

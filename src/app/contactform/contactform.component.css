@@ -37,3 +37,26 @@
 .contact-form-container button:disabled {
   background-color: #cccccc;
 }
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+}
+
+.input-icon svg {
+  margin-right: 0.5rem;
+}
+
+.input-icon label {
+  margin: 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}

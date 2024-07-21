@@ -1,10 +1,9 @@
 <div class="industry-list">
-    <h2 class="header">Industries</h2>
+    <h1 class="header">Industries</h1>
     <ul>
-      <li *ngFor="let industry of industries" >
-      <h4>   {{ industry.name }}</h4>
-         <img [src]=industry.icons  class="img-icons" >
-        
+      <li *ngFor="let industry of industries"  class="body">
+      <h4 class="title">   {{ industry.name }}</h4>
+      <p class="desc">{{industry.description}}  <img [src]=industry.icons  class="img-icons" ></p>
       </li>
     </ul>
 

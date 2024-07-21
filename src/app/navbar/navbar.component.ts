@@ -12,4 +12,7 @@ export class NavbarComponent {
 
 url: any='https://globaltieup.com/static/media/gtup.46818baa6ae712e9e45005aa50a3dcfe.svg'
 
+dash:any='|'
+
+
 }
